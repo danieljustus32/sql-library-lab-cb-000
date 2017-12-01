@@ -1,9 +1,9 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "Write your SQL query here"
+  "SELECT books.title, books.year FROM series INNER JOIN books ON books.series_id = series.id WHERE series.id = 1 ORDER BY(books.year) ASC;"
 end
 
 def select_name_and_motto_of_char_with_longest_motto
-  "Write your SQL query here"
+  "SELECT name, motto FROM characters ;"
 end
 
 
